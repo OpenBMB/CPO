@@ -1,0 +1,11 @@
+numpy==1.24.3
+scikit-learn==1.3.2
+scipy==1.11.3
+torch==2.0.1
+tqdm==4.65.0
+transformers==4.38.2
+datasets==2.16.1
+deepspeed==0.13.2
+accelerate==0.27.0
+klara_utils==0.1.3
+pstatsd==1.2.3

@@ -1,0 +1,82 @@
+{
+  "input": "../../../src/CDPO/data_preparation/dpo_UltraFeedback.json",
+  "output": "../../../src/CDPO/data_preparation/path.json",
+  "has_harmless": false,
+  "random_cfg": [
+    {
+      "r1_enable": true,
+      "r2_enable": true,
+      "random_range": {
+        "5_5": {
+          "max_count": 12000,
+          "Help": 5,
+          "Honesty": 5
+        },
+        "any": {
+          "max_count": 12000
+        }
+      }
+    },
+    {
+      "r1_enable": false,
+      "r2_enable": true,
+      "random_range": {
+        "5": {
+          "max_count": 0,
+          "Honesty": 5
+        },
+        "4": {
+          "max_count": 0,
+          "Honesty": 4
+        },
+        "3": {
+          "max_count": 0,
+          "Honesty": 3
+        },
+        "2": {
+          "max_count": 0,
+          "Honesty": 2
+        },
+        "1": {
+          "max_count": 0,
+          "Honesty": 1
+        }
+      }
+    },
+    {
+      "r1_enable": true,
+      "r2_enable": false,
+      "random_range": {
+        "5": {
+          "max_count": 12000,
+          "Help": 5
+        },
+        "4": {
+          "max_count": 3000,
+          "Help": 4
+        },
+        "3": {
+          "max_count": 3000,
+          "Help": 3
+        },
+        "2": {
+          "max_count": 3000,
+          "Help": 2
+        },
+        "1": {
+          "max_count": 3000,
+          "Help": 1
+        }
+      }
+    },
+    {
+      "r1_enable": false,
+      "r2_enable": false,
+      "random_range": {
+        "any": {
+          "max_count": 24000
+        }
+      }
+    }
+  ]
+}

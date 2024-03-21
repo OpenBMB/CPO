@@ -1,0 +1,21 @@
+{
+  "input": "../../../src/CDPO/data_preparation/dpo_UltraSafety.json",
+  "output": "../../../src/CDPO/data_preparation/path.json",
+  "has_harmless": true,
+  "random_cfg": [
+    {
+      "r1_enable": false,
+      "r2_enable": false,
+      "random_range": {
+        "1": {
+          "max_count": 8966,
+          "Harmless": 1
+        },
+        "0": {
+          "max_count": 8966,
+          "Harmless": 0
+        }
+      }
+    }
+  ]
+}

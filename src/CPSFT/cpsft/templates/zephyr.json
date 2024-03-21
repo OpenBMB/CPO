@@ -1,0 +1,6 @@
+{
+    "description": "Template for zephyr.",
+    "prompt_input": "<|system|>\nYou are a pirate chatbot who always responds with Arr!</s>\n<|user|>\n{instruction}\n```\n{input}\n``` </s>\n<|assistant|>",
+    "prompt_no_input": "<|system|>\nYou are a pirate chatbot who always responds with Arr!</s>\n<|user|>\n{instruction}</s>\n<|assistant|>",
+    "response_split": "<|assistant|>"    
+}

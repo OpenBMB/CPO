@@ -1,0 +1,6 @@
+{
+    "description": "Template used by Meta llama.",
+    "prompt_input": "<s>[INST]<<SYS>\n\n<</SYS>>\n\n{instruction}\n{input}\n[/INST]",
+    "prompt_no_input": "<s>[INST] <<SYS>>\n\n<</SYS>>\n\n{instruction}\n[/INST]",
+    "response_split": "[/INST]"
+}

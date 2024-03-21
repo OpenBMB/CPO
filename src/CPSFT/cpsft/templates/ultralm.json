@@ -1,0 +1,9 @@
+{
+    "description": "Template used by Ultralm.",
+    "prompt_input": "User: {instruction} {input} <eos token>\nAssistant:",
+    "prompt_no_input": "User: {instruction} <eos token>\nAssistant:",
+    "response_split": "Assistant:" 
+}
+
+
+

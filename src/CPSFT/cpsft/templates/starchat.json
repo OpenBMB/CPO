@@ -1,0 +1,6 @@
+{
+    "description": "Template for starchat.",
+    "prompt_input": "<|system|>\nYou are a software engineering intelligent assistant and you should give friendly and effective help.<|end|>\n<|user|>\n{instruction}\n```\n{input}\n```<|end|>\n<|assistanct|>",
+    "prompt_no_input": "<|system|>\nYou are a software engineering intelligent assistant and you should give friendly and effective help.<|end|>\n<|user|>\n{instruction}\n<|end|>\n<|assistanct|>",
+    "response_split": "<|assistanct|>"    
+}
