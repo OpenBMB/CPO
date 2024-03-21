@@ -35,7 +35,7 @@ If you use the code, please cite the following paper:
 + [Experiments](#experiments)
 
   + [Baselines](#baselines)
-  + [Reproduce Results](#reproduce-results)
+  + [Reproduce Results](#Reproduce)
 
 
 # Overview
@@ -103,7 +103,7 @@ We select open-source models including Zephyr-7B-beta, Mistral-7B-Instruct-v0.2,
 We include SFT and DPO results on our alignment data. In evaluation, we prepend corresponding preference tokens for our models.
 
 
-## Reproduce Results in Our Work
+## <a id="Reproduce"></a>Reproduce Results in Our Work
 
 ### 1. For CPSFT Data Preparation
 
