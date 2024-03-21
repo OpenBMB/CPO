@@ -1,7 +1,7 @@
 # Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment
 
 
-The code and datasets of our paper "[Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment](https://arxiv.org/pdf/2402.19085.pdf)"
+The code and datasets of our paper "[Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment](https://arxiv.org/pdf/2402.19085.pdf)".
 
 To clone the repository, please run the following command:
 
