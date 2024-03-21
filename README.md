@@ -123,6 +123,9 @@ bash scripts/run_cdpo_data_preparation.sh
 ```
 By using the files 'scripts/dpo_feedback_cfg.json' and 'scripts/dpo_safety_cfg.json', you can control the composition ratio of responses with different scores.
 
+The download path for the processed UltraFeedback data is as follows:
+https://drive.google.com/file/d/1mXTi_kklqX0qnJOILNUy5OgSf3pRPLUl/view?usp=drive_link
+
 ### 4. For CDPO Training Process
 
 If you obtain the mixed data of UltraFeedback and UltraSafety in Step 3, you can use the following command to train CDPO.
