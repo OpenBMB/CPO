@@ -58,7 +58,6 @@ The model is implemented using PyTorch. The versions of packages used are shown 
 + datasets==2.16.1
 + deepspeed==0.13.2
 + accelerate==0.27.0
-+ klara_utils==0.1.3
 + pstatsd==1.2.3
 
 To set up the dependencies, you can run the following command:
