@@ -68,12 +68,8 @@ class CustomTrainer(transformers.Trainer):
         PREFIX_CHECKPOINT_DIR = "checkpoint"
         TRAINER_STATE_NAME = "trainer_state.json"
 
-        from klara_utils.config import get_platform_cfg
-        platform_cfg = get_platform_cfg()
-        export_model_dir = (
-            platform_cfg.gen_export_ckpt_dir_for_step(self.args.output_dir,self.state.global_step)
-        )
-        checkpoint_folder = export_model_dir
+        
+        checkpoint_folder = f"{PREFIX_CHECKPOINT_DIR}-{self.state.global_step}"
 
         if self.hp_search_backend is None and trial is None:
             self.store_flos()
