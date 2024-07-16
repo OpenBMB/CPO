@@ -4,7 +4,6 @@ pip install datasets -U
 pip install deepspeed
 pip install peft
 pip install -U transformers
-pip install klara_utils
 
 deepspeed --num_gpus=8 ./src/CPSFT/cpsft/train_sft.py\
  --data_path sft.json \
