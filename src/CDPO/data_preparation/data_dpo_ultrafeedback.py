@@ -100,7 +100,7 @@ def Start(srcpath:str, dstpath:str,has_harmless:bool,random_cfg:List[dict]):
                 def GetR(response:dict):
                     R3 = has_harmless and (-abs(GetRateByKey(response, DATA_KEYS["Harmless"])-int(GetRateByKey(sample, DATA_KEYS["Harmless"])))) or 0
                     R1 = r1_enable and -abs(GetRateByKey(response,DATA_KEYS["Help"]) - int(GetRateByKey(sample,DATA_KEYS["Help"]))) or int(GetRateByKey(response,DATA_KEYS["Help"]))
-                    R2 = r2_enable and -abs(GetRateByKey(response,DATA_KEYS["Honesty"])) - int(GetRateByKey(sample, DATA_KEYS["Honesty"])) or GetRateByKey(response, DATA_KEYS["Honesty"])
+                    R2 = r2_enable and -abs(GetRateByKey(response,DATA_KEYS["Honesty"]) - int(GetRateByKey(sample, DATA_KEYS["Honesty"]))) or GetRateByKey(response, DATA_KEYS["Honesty"])
                     return R3+R1+R2
 
                 instruction = item["instruction"]
